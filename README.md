@@ -1,5 +1,5 @@
-isrut
-=====
+isluhn
+======
 **(c)[Bumblehead][0], 2014** [MIT-license](#license)
 
 ### OVERVIEW:
@@ -9,8 +9,8 @@ Return true if the given value passes the luhn check.
 [Read about the luhn algorithm here.][1]
 
 ```javascript
-isrut('invalidrut') // false
-isrut('slfjoe') // true
+isluhn(378282246310005); // true
+isluhn('goober'); // false
 ```
 
 [0]: http://www.bumblehead.com                            "bumblehead"
